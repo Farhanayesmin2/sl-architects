@@ -53,3 +53,8 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     background-image: linear-gradient(to right,   #f0cafa,#c397d1,#33154b);
 
 }
+#header-banner{
+padding-top: 30px;
+padding-bottom: 30px;
+  width: 100%;
+}
