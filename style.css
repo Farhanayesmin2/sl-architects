@@ -308,11 +308,62 @@ h3:hover {
     color: goldenrod;
     margin-left: 0;
 }
-
+/* This is footer */
 footer{
     height: auto;
     width: auto;
     background-color: #c397d1;
      text-align: center;
      padding: 5%;
+}
+
+/* Mobile Responsive Media Query Started */
+@media screen and (max-width:576px) {
+
+
+
+    .image-part {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            /* column-gap: 15px; */
+            grid-column-gap: 15px;
+            grid-row-gap: 15px;
+        }
+
+        .main-part {
+    
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+}
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .top-activities {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .spots {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:1024px) {
+    .top-activities {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .spots {
+        margin-bottom: 30px;
+    }
 }
