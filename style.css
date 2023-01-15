@@ -193,8 +193,7 @@ body {
     padding: 5%;
     text-align: center;
     align-items: center;
-    animation-duration: 30s;
-    animation-name: card;
+    
     /* background-color: #c397d1; */
     height: 160px;
     width: 160px;
@@ -204,12 +203,13 @@ body {
     font-size: larger;
 
 }
-
+/* Some fact hover animation */
 .facts-icon:hover {
     border: 2px solid blue;
     background-color: #e9c8f3;
     box-shadow: 3px 3px #333333;
-
+animation-duration: 30s;
+    animation-name: card;
 
 }
 
@@ -370,10 +370,10 @@ footer {
         flex-wrap: wrap;
         margin-top: 5%;
         margin-bottom: 5%;
-        padding-left: 0%;
+        /* padding-left: 0%;
         padding-right: 0%;
         margin-left: 0%;
-        margin-right: 0%;
+        margin-right: 0%; */
 
     }
 
@@ -403,10 +403,10 @@ footer {
     .facts-section {
         margin-top: 5%;
         padding-top: 5%;
-        padding-left: 0%;
+        /* padding-left: 0%;
         padding-right: 0%;
         margin-left: 0%;
-        margin-right: 0%;
+        margin-right: 0%; */
     }
 
     .facts-icon {
@@ -437,13 +437,4 @@ footer {
     }
 }
 
-@media screen and (min-width:577px) and (max-width:px) {
-    .top-activities {
-        grid-template-columns: repeat(2, 1fr);
 
-    }
-
-    .spots {
-        margin-bottom: 30px;
-    }
-}
