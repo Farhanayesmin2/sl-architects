@@ -248,4 +248,14 @@ background-color: rgb(164, 222, 135);
 .sponsors-section{
     text-align: center;
     padding-top: 5%;
+    
+}
+
+.sponsor-img{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+   padding: 5%;
+    background-blend-mode: hard-light;
+            background-color: rgba(8, 0, 0, 0);
+        
 }
