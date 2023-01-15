@@ -203,7 +203,7 @@ body {
     font-size: larger;
 
 }
-/* Some fact hover animation */
+/* Some fact hover */
 .facts-icon:hover {
     border: 2px solid blue;
     background-color: #e9c8f3;
@@ -419,6 +419,9 @@ footer {
         grid-column-gap: 5%;
         grid-row-gap: 5%;
 
+    }
+    .spot-img{
+        width: 100%;
     }
 }
 
