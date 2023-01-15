@@ -190,13 +190,57 @@ body {
     padding: 5%;
     text-align: center;
     align-items: center;
-    background-color: #c397d1;
+    animation-duration: 9s;
+        animation-name: card;
+    /* background-color: #c397d1; */
     height: 160px;
     width: 160px;
-    border: 2px solid #33154b;
+    border: 2px solid rgb(163, 15, 163);
+    color: #33154b;
+    font-weight: 700;
+    font-size: larger;
+   
 }
 .facts-icon:hover{
 border: 2px solid blue ;
 background-color: #e9c8f3;
 box-shadow: 3px 3px #333333 ;
+
+
+}
+#number{
+    font-size: x-large;
+    font-weight: 700;
+    color: blue;
+}
+@keyframes card{
+    5% {
+        background-color: rgb(170, 123, 200);
+    }
+    12%{
+background-color: rgb(235, 109, 134);
+    }
+    18%{
+background-color: rgb(164, 222, 135);
+    }
+
+    25% {
+        background-color: rgb(243, 243, 133);
+    }
+    30%{
+        background-color: rgb(116, 209, 235);
+    }
+    40%{
+        background-color: #c397d1;
+    }
+
+    50% {
+        background-color: rgb(149, 149, 233);
+    }
+70%{
+    background-color: darksalmon;
+}
+    100% {
+        background-color: rgb(176, 250, 176);
+    }
 }
