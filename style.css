@@ -190,7 +190,7 @@ body {
     padding: 5%;
     text-align: center;
     align-items: center;
-    animation-duration: 9s;
+    animation-duration: 30s;
         animation-name: card;
     /* background-color: #c397d1; */
     height: 160px;
@@ -243,4 +243,9 @@ background-color: rgb(164, 222, 135);
     100% {
         background-color: rgb(176, 250, 176);
     }
+}
+
+.sponsors-section{
+    text-align: center;
+    padding-top: 5%;
 }
