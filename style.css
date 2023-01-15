@@ -58,3 +58,20 @@ padding-top: 30px;
 padding-bottom: 30px;
   width: 100%;
 }
+/* This is the main part of feature section */
+.main-part{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.image-part{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* column-gap: 15px; */
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+
+.text-part{
+    padding-left: 2%;
+}
