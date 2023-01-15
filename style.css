@@ -260,6 +260,54 @@ background-color: rgb(164, 222, 135);
             background-color: rgba(8, 0, 0, 0);
         
 }
+/* Booking section */
+/* Header top activities section start */
+.top-header {
+    color: darkblue;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.top-header:hover {
+    color: #33154b;
+}
+
+h3:hover {
+    color: darkblue;
+}
+
+.top-activities {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 35px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 50px;
+
+}
+
+.spots {
+    border: 2px solid #2715f2;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 10px;
+    box-shadow: 4px 4px #9d9e9e;
+
+}
+
+
+.ratings {
+    display: flex;
+    align-items: baseline;
+
+}
+
+.fa-solid.filled {
+    font-size: 13px;
+    color: goldenrod;
+    margin-left: 0;
+}
 
 footer{
     height: auto;
