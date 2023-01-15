@@ -14,6 +14,7 @@ body {
     padding-left: 50px;
     padding-right: 50px;
     box-shadow: 5px 5px #c397d1;
+    
 }
 
 #nav-title {
@@ -258,4 +259,12 @@ background-color: rgb(164, 222, 135);
     background-blend-mode: hard-light;
             background-color: rgba(8, 0, 0, 0);
         
+}
+
+footer{
+    height: auto;
+    width: auto;
+    background-color: #c397d1;
+     text-align: center;
+     padding: 5%;
 }
