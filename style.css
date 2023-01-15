@@ -117,7 +117,7 @@ body {
 }
 
 /* This is the main part of love section header */
-.header-title {
+.header-title{
     font-size: 35px;
     font-weight: 700;
     color: #33154b;
@@ -125,7 +125,7 @@ body {
 }
 
 /* left border of header */
-#header-border {
+#header-border{
     border-left: 6px solid blue;
     height: 100px;
     margin-bottom: 100px;
@@ -335,16 +335,32 @@ footer {
     body {
         margin-left: 0;
         margin-right: 0%;
+        padding: 0px;
     }
 
     .nav-menu {
+        display: inline-block;
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        padding-top: 5%;
+        align-items: center;
+        justify-content: center;
         padding-bottom: 5%;
+        text-align: center;
+        width: 100%;
+        padding-left: 0;
     }
+  /* .nav-items{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  } */
 
     .nav-items a {
+        flex-wrap: wrap;
         font-size: medium;
+    display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+       
     }
 
     .image-part {
@@ -374,17 +390,27 @@ footer {
         padding-right: 0%;
         margin-left: 0%;
         margin-right: 0%; */
+        align-items: center;
+        justify-content: center;
 
     }
 
     .card-image {
         height: 100%;
-        width: 455px;
+        width: 100%;
         margin-left: 0;
         margin-right: 0%;
 
 
     }
+       #header-border{
+        width: 100%;
+       }
+       .main-card-part{
+        width: 100%;
+        padding-left: 0;
+        margin-left: 0%;
+       }
 
     #button-position {
         margin-top: -35px;
