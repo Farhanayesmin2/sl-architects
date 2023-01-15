@@ -64,7 +64,7 @@ body {
 
 /* Explore button hover added */
 .explore-btn:hover {
-background-image: linear-gradient(to right, #b5b7d6, #b6bdfc, blue);
+    background-image: linear-gradient(to right, #b5b7d6, #b6bdfc, blue);
 
 }
 
@@ -102,6 +102,7 @@ background-image: linear-gradient(to right, #b5b7d6, #b6bdfc, blue);
     font-weight: 700;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 /* This is the main part of love section */
 .love-section {
     display: flex;
@@ -111,55 +112,91 @@ background-image: linear-gradient(to right, #b5b7d6, #b6bdfc, blue);
     padding-right: 5%;
     margin-left: 5%;
     margin-right: 5%;
-        width: 455px;
+    width: 455px;
 }
+
 /* This is the main part of love section header */
-.header-title{
+.header-title {
     font-size: 35px;
     font-weight: 700;
     color: #33154b;
     padding-left: 10px;
 }
+
 /* left border of header */
-#header-border{
+#header-border {
     border-left: 6px solid blue;
     height: 100px;
     margin-bottom: 100px;
-    
+
 }
+
 /* Main part of card items */
 .main-card-part {
     display: flex;
     flex-wrap: wrap;
     margin-right: 5%;
 }
+
 /* Left part card items */
-.card-items{
+.card-items {
     background-color: #f0cafa;
     padding: 5px 10px;
     margin-bottom: 10px;
     height: auto;
     width: 460px;
     border-right: 1px solid blue;
-    box-shadow: 2px 2px  rgb(170, 170, 170);
+    box-shadow: 2px 2px rgb(170, 170, 170);
 
-    
+
 }
 
-.card-image{
+.card-image {
     height: 100%;
     width: 500px;
     margin-left: 10%;
 
 }
-#button-position{
-margin-top: -70px;
+
+#button-position {
+    margin-top: -70px;
 }
-.exprience-btn{
+
+.exprience-btn {
     height: 100px;
     width: auto;
     font-size: xx-large;
     padding: 15px 15px;
 
-    
+
+}
+
+/* Some facts section */
+.facts-section {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.facts-main-part{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-top: 5%;
+    padding-left: 5%;
+
+}
+.facts-icon{
+    padding: 5%;
+    text-align: center;
+    align-items: center;
+    background-color: #c397d1;
+    height: 160px;
+    width: 160px;
+    border: 2px solid #33154b;
+}
+.facts-icon:hover{
+border: 2px solid blue ;
+background-color: #e9c8f3;
+box-shadow: 3px 3px #333333 ;
 }
